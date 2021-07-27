@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Portfolio Personal</title>
+  </head>
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Diego Pacheco</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre mi</a>
+            </li>
+            <li class="nav__item">
+              <a href="#conocimientos" class="nav__link">Conocimientos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portafolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contactame</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!-- ===== HOME ===== -->
+      <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+          <div class="home__data">
+            <span class="home__greeting">Hello, My name is</span>
+            <h1 class="home__name">Diego Pacheco</h1>
+            <span class="home__profession">Web Developer</span>
+            <a
+              download=""
+              href="./assets/pdf/cv-diego-pacheco.pdf"
+              class="button button-light home__button"
+              >Download CV</a
+            >
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- ===== ABOUT ===== -->
+      <section class="about section bd-container" id="about">
+        <span class="section-subtitle">Sobre mi</span>
+        
+        <h2 class="section-title">Diego Ericksond Pacheco Yave</h2>
+        
+        
+        <div class="about__container bd-grid">
+
+            <p class="about__description">
+              Desarrollador Front-End y entuasiasta de la tecnología. Soy una persona que ve el aprendizaje como algo continuo, por lo que siempre estoy aprendiendo nuevas tecnologías. <br>
+              Mi objetivo profesional es crear soluciones tecnológicas que ofrezcan la mejor experiencia digital a los usuarios.
+            </p>
+
+        </div>
+
+
+      </section>
+
+      <!-- ===== QUALIFICATION ===== -->
+      <section class="qualification section bd-container">
+        <!-- <span class="section-subtitle">Educación</span> -->
+        <h2 class="section-title">Educación</h2>
+
+        <div class="qualification__container bd-grid"> 
+            
+
+
+              <div class="qualification__data">
+                <h3 class="qualification__area">Desarrollo de software</h3>
+                <div class="qualification__box">
+                  <span class="qualification__work">
+                    <i class="bx bx-briefcase-alt qualification__icon"></i>
+                    
+                    ISIL - Instituto Tecnológico
+                                  </span>
+                  <span class="qualification__work">
+                    <i class="bx bx-calendar-alt qualification__icon"></i>
+                    
+                    Agosto 2019 - En curso
+                  </span>
+                </div>
+              </div>
+
+
+              <div class="qualification__data">
+                <h3 class="qualification__area">Bootcamp FullStack</h3>
+                <div class="qualification__box">
+                  <span class="qualification__work">
+                    <i class="bx bx-briefcase-alt qualification__icon"></i>
+                    CodiGo Tecsup - Bootcamp FullStack
+                  </span>
+                  <span class="qualification__work">
+                    <i class="bx bx-calendar-alt qualification__icon"></i>
+                    Noviembre 2020 - Abril 2021
+                  </span>
+                </div>
+              </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== SERVICES ===== -->
+      <section class="services section bd-container" id="conocimientos">
+        <!-- <span class="section-subtitle">What i offer</span> -->
+        <h2 class="section-title">Conocimientos</h2>
+
+        <div class="services__container bd-grid">
+          <div class="services__data">
+            <i class='bx bx-laptop services__icon' ></i>
+            <h3 class="services__title">Diseño Web</h3>
+            <p class="services__description">
+              Maquetado CSS moderno y responsivo con flexbox, css grid, media querys. Experiencia en frameworks de estilos como Bootstrap.
+              <br>
+              Uso del preprocesador <b>SASS</b> con variables, mixings, etc.
+            </p>
+          </div>
+          <div class="services__data">
+            <i class='bx bxl-javascript services__icon'></i>
+            <h3 class="services__title">JavaScript</h3>
+            <p class="services__description">
+              Uso de <b>JavaScript moderno</b> con Async Await, Arrow Functions, scope de variables, operador ternario, spread operation, promesas, conceptos del ECMAScript actual,
+            </p>
+          </div>
+          <div class="services__data">
+            <i class='bx bxl-react services__icon' ></i>
+            <h3 class="services__title">Font-end React</h3>
+            <p class="services__description">
+              Frontend con React <b>Hooks</b>, uso de <b>Context API</b> o <b>Redux</b> para el manejo del estado global de la APP.
+              <br>
+              Fech, Axios para comunicarse con los servidores.
+              Estilos con CSS moderno, autenticación con jwt.
+            </p>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- ===== PORTFOLIO ===== -->
+      <section class="portfolio section bd-container" id="portfolio">
+        <span class="section-subtitle">Mis proyectos recientes</span>
+        <h2 class="section-title">Portafolio</h2>
+
+        <div class="portfolio__container bd-grid">
+  
+         
+          <div class="portfolio__content">
+            <a target="_blank" href="https://ericksonder.github.io/bank-landing-page/#"><img src="./assets/img/bank-landing-page.webp" alt="" class="portfolio__img" /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">HTML, CSS, FlexBox</span>
+              <h2 class="portfolio__title">
+                Easybank landing page
+              </h2>
+              <a target="_blank" href="https://github.com/ericksonder/bank-landing-page" class="button button-link">Ver github</a>
+            </div>
+          </div>
+
+          <div class="portfolio__content">
+            <a target="_blank" href="https://ericksonder.github.io/loopstudios-landing-page/"><img src="./assets/img/loopstudios-landing-page.webp" alt="" class="portfolio__img" /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">HTML, CSS, FlexBox, Grid, JS</span>
+              <h2 class="portfolio__title">
+                Loopstudios Landing Page
+              </h2>
+              <a target="_blank" href="https://github.com/ericksonder/loopstudios-landing-page" class="button button-link">Ver github</a>
+            </div>
+          </div>
+
+
+          <div class="portfolio__content">
+            <a target="_blank" href="https://ericksonder.github.io/ecommerce-responsive/"><img src="./assets/img/ecommerce-sara.PNG" alt="" class="portfolio__img" /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">HTML, CSS, FlexBox, Grid, JS</span>
+              <h2 class="portfolio__title">
+                Ecommerce responsive
+              </h2>
+              <a target="_blank" href="https://github.com/ericksonder/ecommerce-responsive" class="button button-link">Ver github</a>
+            </div>
+          </div>
+
+          <div class="portfolio__content">
+            <a target="_blank" href="https://ericksonder.github.io/piano-javascript/"><img src="./assets/img/piano.PNG" alt="" class="portfolio__img" /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">HTML, CSS, FlexBox, JS</span>
+              <h2 class="portfolio__title">
+                Piano JavaScript
+              </h2>
+              <a target="_blank" href="https://github.com/ericksonder/piano-javascript" class="button button-link">Ver github</a>
+            </div>
+          </div>
+
+
+          <div class="portfolio__content">
+            <a target="_blank" href="https://ericksonder.github.io/Ejercicio-consumiendo-API-de-TMDB-Peliculas/02-peliculas.html"><img src="./assets/img/peliculas-TMDB.png" alt="" class="portfolio__img" /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">HTML, CSS, JS, API TMDB</span>
+              <h2 class="portfolio__title">
+                Peliculas - TMDB API
+              </h2>
+              <a target="_blank" href="https://github.com/ericksonder/Ejercicio-consumiendo-API-de-TMDB-Peliculas" class="button button-link">Ver github</a>
+            </div>
+          </div>
+          
+          <div class="portfolio__content">
+            <a target="_blank" href="https://ericksonder.github.io/proyect-react-weather/"><img src="./assets/img/pronosticoDelClima.png" alt="" class="portfolio__img" /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">React JS, Open Weather Map API</span>
+              <h2 class="portfolio__title">
+                Pronóstico del Clima
+              </h2>
+              <a target="_blank" href="https://github.com/ericksonder/proyect-react-weather" class="button button-link">Ver github</a>
+            </div>
+          </div>
+
+         
+
+         
+
+
+
+        </div>
+      </section>
+
+      <!-- ===== CONTACT ME ===== -->
+      <section class="contact section bd-container" id="contact">
+        <!-- <span class="section-subtitle">For project</span> -->
+        <h2 class="section-title">Contactame</h2>
+
+        <div class="contact__container bd-grid">
+          <div class="contact__content bd-grid">
+            <div class="contact__box">
+                <i class='bx bx-mail-send contact__icon'></i>
+              <h3 class="contact__title">Gmail</h3>
+              <span class="contact__description">ericksonder017@gmail.com</span>
+            </div>
+
+            
+            <div class="contact__box">
+                <i class='bx bx-message-detail contact__icon' ></i>
+              <h3 class="contact__title">Chat</h3>
+              <div>
+                <a target="_blank" href="https://wa.link/jftx6g" class="contact__social"><i class="bx bxl-whatsapp"></i></a>
+                <a target="_blank" href="https://t.me/diegoerick007" class="contact__social"><i class="bx bxl-telegram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer__container bd-container">
+        <!-- <h1 class="footer__title">Diego Pacheco</h1> -->
+        <p class="footer__description">
+          Soy Diego Pacheco y esta es mi website personal
+        </p>
+
+
+        <div class="">
+        
+            <a target="_blank" href="https://twitter.com/diego_ericksond" class="footer__link"><i class="bx bxl-twitter"></i></a>
+
+          <a target="_blank" href="https://www.linkedin.com/in/diego-p-221040169/" class="footer__link"><i class="bx bxl-linkedin"></i></a>
+
+          <a target="_blank" href="https://github.com/ericksonder" class="footer__link"><i class="bx bxl-github"></i></a>
+        </div>
+
+
+      </div>
+    </footer>
+    <!-- ===== GSAP ===== -->
+    <script src="./assets/js/gsap.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
